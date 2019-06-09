@@ -1,0 +1,75 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: url(../4.png) no-repeat;
+  background-size: cover;
+  font-family:"Open Sans", "Helvetica Neue", sans-serif;
+}
+.box{
+  width: 450px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  color: white;
+ font-family: 'century gothic' , sans-serif;
+ 
+}
+.box-img{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+.box h1{
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+}
+.box h5{
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+.box p{
+  text-align: justify;
+}
+
+
+.diogo ul 
+{
+    display: flex;
+    list-style-type:none;
+	margin-top:2.5px;
+    float: right;
+    position: absolute;
+    top: 8px;
+    right: 25px;
+}
+.diogo ul li
+{
+	display:flex;
+	float:ritgh;
+}
+.diogo ul li a
+{
+    text-decoration: none ;
+    color:#fff;
+    padding: 16px 25px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+	vertical-align: middle;
+	
+}
+.diogo ul li a:hover
+{
+    background-color:#fff;
+    color:#000;
+
+}
+.diogo ul li.active a
+{
+    background-color:#fff;
+    color:#000;
+
+}
