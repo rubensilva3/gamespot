@@ -1,7 +1,7 @@
 body{
   margin: 0;
   padding: 0;
-  background: url(../4.png) no-repeat;
+  background: url("/img/4.png") no-repeat;
   background-size: cover;
   font-family:"Open Sans", "Helvetica Neue", sans-serif;
 }
